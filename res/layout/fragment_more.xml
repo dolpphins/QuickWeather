@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/more"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:background="#63a8fa">
+        <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:layout_marginTop="30dip"
+	    android:layout_marginBottom="30dip"
+	    android:text="设置"
+	    android:textSize="22sp"
+	    android:gravity="center"/>
+    </RelativeLayout>
+   	<ScrollView 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content">
+   	    <LinearLayout
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:orientation="vertical">
+   	        <TextView 
+   	        android:id="@+id/version"
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:layout_marginBottom="2dip"
+   	        android:paddingLeft="10dip"
+   	        android:paddingRight="10dip"
+   	        android:paddingTop="20dip"
+   	        android:paddingBottom="20dip"
+   	        android:text="当前版本"
+   	        android:textSize="22sp"
+   	        android:background="#ffffff"/>
+   	    <TextView
+   	        android:id="@+id/exit"
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:paddingLeft="10dip"
+   	        android:paddingRight="10dip"
+   	        android:paddingTop="20dip"
+   	        android:paddingBottom="20dip"
+   	        android:text="退出"
+   	        android:textSize="22sp"
+   	        android:background="#ffffff"/>
+   	    </LinearLayout>
+   	    
+   	</ScrollView>
+
+</LinearLayout>
